@@ -1,0 +1,90 @@
+body {
+	background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* contenitore */
+.contenitore {
+	width: 750px;
+	margin: auto;
+}
+/* /contenitore */
+
+/* intestazione-top*/
+.logo-gmail {
+	height: 100px;
+	vertical-align: middle;
+}
+
+h1 {
+	font-size: 35px;
+	color: white;
+	display: inline;
+}
+
+hr {
+	color: white;
+}
+/* /intestazione-top */
+
+/* intestazione-bottom */
+.unread {
+	line-height: 60px;
+	font-size: 25px;
+	color: white;
+}
+
+.speciale {
+	background-color: rgba(251, 43, 8, 0.6);
+	width: 40px;
+	height: 40px;
+  border-radius: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+}
+
+button {
+	border-radius: 25px;
+	padding: 1px 8px;
+}
+/* /intestazione-bottom */
+
+/* parte centrale */
+.row-unread {
+	background-color: lightgrey;
+	padding: 1px;
+	border: 1px solid black;
+}
+
+.row-read {
+	background-color: white;
+	padding: 1px;
+	border: 1px solid black;
+}
+
+.row-unread > p {
+	display: inline;
+}
+
+.row-read > p {
+	display: inline;
+}
+
+.testo-email {
+	color: grey;
+}
+/* /parte centrale */
+
+/* fondo pagina */
+#credits {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+#credits > span {
+	font-size: 20px;
+	font-style: italic;
+}
+/* /fondo paina */
